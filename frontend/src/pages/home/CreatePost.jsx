@@ -79,7 +79,7 @@ const CreatePost = () => {
 				{img && (
 					<div className='relative w-72 mx-auto'>
 						<IoCloseSharp
-							className='absolute top-0 right-0 text-white bg-gray-800 rounded-full w-5 h-5 cursor-pointer'
+							className='absolute top-0 right-0 text-white bg-neutral rounded-full w-5 h-5 cursor-pointer'
 							onClick={() => {
 								setImg(null);
 								imgRef.current.value = null;
