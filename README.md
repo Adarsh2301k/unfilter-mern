@@ -45,10 +45,3 @@ You can share thoughts, follow others, and engage in discussions on a modern and
 - 🧾 Simple, clean UI
 
 ---
-
-## 🚀 Getting Started Locally
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/unfiltered.git
-cd unfiltered
