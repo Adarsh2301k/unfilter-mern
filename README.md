@@ -1,47 +1,47 @@
-# MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io
+# 🌐 Unfiltered - A Free Voice Social Media Platform
 
-![Demo App](https://i.ibb.co/f8y9vGS/Group-82.png)
+Live Demo 👉 [Unfiltered (MERN)](https://unfilter-mern.onrender.com)
 
-[Video Tutorial on Youtube](https://youtu.be/4GUVz2psWUg)
+---
 
-Some Features:
+## 📝 Overview
 
--   ⚛️ Tech Stack: React.js, MongoDB, Node.js, Express, Tailwind
--   🔐 Authentication with JSONWEBTOKENS (JWT)
--   🔥 React Query for Data Fetching, Caching etc.
--   👥 Suggested Users to Follow
--   ✍️ Creating Posts
--   🗑️ Deleting Posts
--   💬 Commenting on Posts
--   ❤️ Liking Posts
--   🔒 Delete Posts (if you are the owner)
--   📝 Edit Profile Info
--   🖼️ Edit Cover Image and Profile Image
--   📷 Image Uploads using Cloudinary
--   🔔 Send Notifications
--   🌐 Deployment
--   ⏳ And much more!
+**Unfiltered** is a MERN-based social media web application where users can speak their minds without filters. It provides a space for open conversation with a simple, intuitive interface.
 
-### Setup .env file
+You can share thoughts, follow others, and engage in discussions on a modern and fast full-stack application.
 
-```js
-MONGO_URI=...
-PORT=...
-JWT_SECRET=...
-NODE_ENV=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-```
+---
 
-### Build the app
+## 🔧 Tech Stack
 
-```shell
-npm run build
-```
+**Frontend**:
+- React.js
+- TailwindCSS / DaisyUI
+- Axios
 
-### Start the app
+**Backend**:
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JSON Web Tokens (JWT) for authentication
 
-```shell
-npm start
-```
+**Other Tools**:
+- Render (deployment)
+- Cloudinary (image upload)
+- Multer (file handling)
+- dotenv (environment management)
+
+---
+
+## ✨ Features
+
+- 👤 User Authentication (Register/Login with JWT)
+- 📝 Create Posts with text and images
+- 💬 Comment on posts
+- ❤️ Like/Unlike functionality
+- 🔍 Explore Posts from other users
+- 🔐 Protected routes with token-based access
+- 🧾 Simple, clean UI
+
+---
